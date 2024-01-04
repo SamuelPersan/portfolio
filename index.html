@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Pereira - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    @import "{{ site.minimal }}";
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"> <!--Biblioteca Bootstrap Icons-->
+
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+
+                    <a href="index.html"><img src="imagens/SP.png" alt="logo"></a>
+
+
+            </div>                                                      <!--Fim da classe Logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#formulario">
+                    <button>Contato</button>
+                </a>
+            </div>                                                  <!--Fim da classe btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+
+                <div class="btn-fechar" id="fechar-menu">
+                    <i class="bi bi-x-lg"></i>
+                </div> <!-- Fim da classe btn-fechar -->
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div> <!-- Fim da classe menu-mobile -->
+
+            <div class="overlay-menu-mobile" id="overlay-menu-mobile">
+
+            </div>
+
+        </div>                                                      <!--Fim da classe interface-->
+    </header>
+
+    <main>
+        <section class="topo">
+            <div class="interface">
+
+                <div class="flex">
+
+                    <div class="txt-topo-site">
+                        <h1>Olá, <br> Sejam Bem-vindos ao meu <span>portifólio!</span></h1>
+
+                        <p>
+                            Apaixonado por tecnologias, cultura Geek e<span>  programação.</span> 
+                            <br><br>
+
+                            Acesse minhas redes sociais:
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="https://www.linkedin.com/in/samuel-pereira-01/" target="_blank">
+                                <button id="linkdin"> <span><img src="imagens/linkedin.png" alt="linkedin"></span> Linkdin</button>
+                            </a>
+
+                            <a href="https://www.instagram.com/pereirasamuka_1?igsh=NXl2Z3FtbGUzeHIz&utm_source=qr" target="_blank">
+                                <button id="instagram"> <span><img src="imagens/instagram.png" alt="instagram"></span> Instagram</button>
+                            </a>
+                            
+                            <a href="https://github.com/SamuelPersan" target="_blank">
+                                <button id="github"> <span><img src="imagens/github.png" alt="github"></span> GitHub</button>
+                            </a>
+                        </div>
+
+
+                    </div>                                          <!--Fim da classe txt-topo-site-->
+
+                    <div class="imagem">
+                        <img src="imagens/minha-foto.png" alt="foto">
+                    </div>                                              <!--Fim da classe img-->
+
+                </div>                                              <!--Fim da classe flex-->
+
+
+            </div>                                                  <!--Fim da interface-->
+        </section>  
+        <!--Fim do topo-->
+
+        <section class="especialidades" id="especialidades"> <!--Inicio especialidades-->
+
+            <div class="interface"> 
+
+                <h2 class="titulo">
+                    Minhas <span>Especialidades :</span>
+                </h2>
+
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Websites</h3>
+                        <p>Criação de Websites, principalmente com HTML5, CSS3, JS, ES6 e Vue.JS</p>
+                    </div> <!--Fim da classe esopecialidades-->
+
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-braces"></i>
+                        <h3>Front-end</h3>
+                        <p>
+                            Estudante e futuro desenvolvedor Front-end 
+                        </p>
+                    </div> <!--Fim da classe esopecialidades-->
+
+                    </div> <!--Fim da classe esopecialidades-->
+
+                </div> <!-- Fim da classe flex-->
+
+            </div> <!--Fim da classe interface-->
+
+        </section>
+
+        <section class="sobre" id="sobre">
+
+            <div class="interface">
+
+
+                <div class="flex">
+                    
+                    <div class="img-sobre">
+                        <img src="imagens/eu.jpg" alt="foto">
+                    </div> <!--Fim da classe img sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <SPAN> SOU SAMUEL PEREIRA!</SPAN>
+                        </h2>
+
+                        <P>
+                            Olá, sou Samuel Pereira, desenvolvedor Front-end. Adoro estudar e adquirir novos conhecimentos sobre programação e desenvolvimento web.
+                            No momento, estou cursando Análise e Desenvolvimento de Sistemas e sou aluno do curso Front-end 20 Projetos na Udemy.
+                            Neste espaço, você encontrará uma amostra dos meus projetos, desenvolvidos durante os cursos e experiências que adquiri 
+                            durante o meu aprendizado. Gosto de me arriscar um pouco no mundo do design também e criar alguns logotipos, como este do site.
+                            Estou sempre em busca de desafios empolgantes e oportunidades para aprender e crescer. Fique à vontade para explorar o site, meus projetos
+                            e entrar em contato, se desejar. Não deixe de conferir minhas redes sociais também.
+                        </P>
+                       
+
+                        <div class="btn-social">
+                            <a href=""><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/samuel-pereira-01/" ><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href=""><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div> <!--Fim da classe txt sobre-->
+                </div> <!--fim da classe flex-->
+            </div> <!--fim da classe interface-->
+
+        </section> <!--Fim da section sobre-->
+
+        <section class="portfolio" id="projetos">
+
+            <div class="interface">
+
+                <h2>MEU <span>PORTFÓLIO.</span></h2>
+
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(imagens/Capturar.PNG);"> 
+                        <div class="overlay">Projeto Android</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/Capturar_cordel.PNG);">
+                        <div class="overlay">Projedo Cordel</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(imagens/projeto2.jpeg);">
+                        <div class="overlay">Add Project +</div>
+                    </div>
+                </div> <!--Fim da classe flex-->
+            </div> <!--Fim da classe interface-->
+
+        </section> <!--Fim da class portifolio-->
+
+        <section class="formulario" id="formulario">
+
+            <div class="interface">
+
+                <h2>FALE <SPAn>COMIGO</SPAn></h2>
+
+                <form action="">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo: *" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail: *" autocomplete="none" required>
+                    <input type="text" name="tel" id="tel" placeholder="Seu celular:">
+                    <textarea name="msg" id="msg" placeholder="Digite a sua mensagem: *" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                    
+                </form>
+
+            </div> <!--Fim da classe interface-->
+
+        </section> <!--Fim da classe formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+
+                <div class="line-footer">
+                    <div class="flex">
+                    <div class="logo-footer">
+                        <img src="imagens/SP-pq.png" alt="#">
+                    </div> <!--Fim da classe logo-footer-->
+
+                    <div class="btn-social">
+                        <a href=""><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/samuel-pereira-01/" ><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href=""><button><i class="bi bi-github"></i></button></a>
+                    </div> <!--Fim da classe btn-social-->
+
+            </div> <!--Fim da classe flex-->
+
+        </div> <!--fim da classe line footer de cima-->
+
+
+
+                <div class="line-footer borda">
+<div class="flex">
+    
+                        <p><i class="bi bi-envelope-fill"></i> <a href="mailto:">samuel.pereira2@hotmail.com</a> <br> <i class="bi bi-whatsapp"></i> (11) 9 8338-0710</p>
+                        <p id="autor">CRIADO POR SAMUEL PEREIRA!</p>
+    
+                    </div> <!--fim da classe line footer de baixo-->
+</div>
+
+        </div> <!--Fim da classe interface-->
+
+    </footer>
+
+</body>
+</html>
