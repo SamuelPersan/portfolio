@@ -461,6 +461,7 @@ h2 {
 }
 
 .overlay a:hover {
+    color: white;
     text-decoration: underline;
 }
 
