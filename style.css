@@ -455,6 +455,15 @@ h2 {
     margin-bottom: 80px;
 }
 
+.overlay a {
+    text-decoration: none;
+    color: white;
+}
+
+.overlay a:hover {
+    text-decoration: underline;
+}
+
 /* ESTILO RODAPÉ */
 
 footer {
